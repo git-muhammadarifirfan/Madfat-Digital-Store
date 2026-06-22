@@ -7,6 +7,7 @@ interface OptimizedImageProps
   width?: number;
   height?: number;
   priority?: boolean;
+  className?: string;
 }
 
 export const OptimizedImage = React.memo(

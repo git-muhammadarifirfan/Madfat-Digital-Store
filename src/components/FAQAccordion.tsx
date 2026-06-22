@@ -8,6 +8,7 @@ interface FAQAccordionProps {
 }
 
 interface FAQAccordionItemProps {
+  key?: React.Key;
   item: FAQItem;
   isOpen: boolean;
   onToggle: () => void;
